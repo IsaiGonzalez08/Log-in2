@@ -1,0 +1,20 @@
+* {
+  box-sizing:border-box;
+  overflow-x:hidden;
+}
+html {  
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../src/assets/img/fondoRegistro.jpg');
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
