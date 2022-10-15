@@ -1,17 +1,19 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    padding: 170px 0px 0px 0px;
+}
 .container{
     background-color: rgba(195, 195, 195, 0.83);
     width: 480px;
     height: 380px;
-    position: absolute;
-    top: 21%;
-    left: 35%;
     border-radius: 5px;
     overflow: hidden;
 }
 .crearCuenta {
     display: flex;
     justify-content: flex-start;
-    padding: 32px 0px 0px 48px;
+    padding: 32px 0px 10px 48px;
 }
 a{
     color: blue;
@@ -20,14 +22,13 @@ a{
     display: flex;
     justify-content: center;
     color:black;
-    padding: 8px;
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 .inputs{
     display: flex;
     justify-content: center;
-    padding: 0px 0px 15px 0px;
+    padding: 10px 0px 10px 0px;
 }
 .nombreU{
     width: 80%;
@@ -37,13 +38,6 @@ a{
     border: none;
     border-bottom: 1px solid black;
 }
-::placeholder{
-    color: black;
-}
-.contras{
-    display: flex;
-    justify-content: center;
-}
 .contra{
     width: 80%;
     border: 1px solid white;
@@ -52,14 +46,8 @@ a{
     border: none;
     border-bottom: 1px solid black;
 }
-.condiciones{
-    display:flex;
-    justify-content: flex-start;
-    padding: 25px 0px 0px 32px;
-}
-.terminos{
-    width: 15px;
-    height: 15px;
+::placeholder{
+    color: black;
 }
 input{
     width: 200px;

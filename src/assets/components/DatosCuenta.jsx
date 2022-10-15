@@ -40,14 +40,16 @@ function DatosCuenta(){
     }
     return(
         <>
-        <form className="container" onSubmit={handleSubmit}>
+        <div className="contenedor">
+        <div className="container">
+        <form onSubmit={handleSubmit}>
             <div className='titulo'>
             <Titulo title={"Iniciar Sesión"}></Titulo>
             </div>
             <div className='inputs'>
             <InputC clase={"nombreU"} type={"email"} text={"Correo Electronico"} val={correoElectronico} onChange={handleChangeCorreoElectronico}></InputC>  
             </div>
-            <div className="contras">
+            <div className="inputs">
             <InputC clase={"contra"} type={"password"} text={"Contraseña"} val={password} onChange={handleChangePassword}></InputC>
             </div>
             <div className='crearCuenta'>
@@ -56,7 +58,9 @@ function DatosCuenta(){
             <div className='btnRegistrar'>
             <BtnRegistrar></BtnRegistrar>
             </div>
-        </form>
+        </form>   
+        </div>
+        </div>
         </>
     )
 }
